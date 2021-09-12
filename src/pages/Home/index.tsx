@@ -12,7 +12,7 @@ function Home() {
                     <p className="lead">Consulte seu cep no botão abaixo:</p>
                     <hr />
                     <p>Esta aplicação consiste em exibir o resultado de sua busca a partir da utilização de uma API externa.</p>
-                    <Link className="btn btn-primary btn-lg" to="/consultacep">
+                    <Link className="btn btn-warning btn-lg" to="/consultacep">
                         Acessar
                     </Link>
                 </div>
