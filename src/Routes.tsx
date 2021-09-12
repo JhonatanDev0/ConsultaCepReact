@@ -1,4 +1,5 @@
 import Home from 'pages/Home';
+import Consultacep from 'pages/Consultacep';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function Routes() {
@@ -9,6 +10,7 @@ function Routes() {
                     <Home />
                 </Route>
                 <Route path="/consultacep">
+                    <Consultacep />
                 </Route>
             </Switch>
         </BrowserRouter>
